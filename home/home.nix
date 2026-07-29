@@ -1,0 +1,16 @@
+{ config, pkgs, ... }:
+
+{
+  imports = [
+    ./modules/vim.nix
+    ./modules/packages.nix
+    ./modules/gtk.nix
+    ./modules/gnome.nix
+    ./modules/git.nix
+  ];
+
+  home.username = "yukov";
+  home.homeDirectory = "/home/yukov";
+  home.stateVersion = "26.05";
+  programs.home-manager.enable = true;
+}
