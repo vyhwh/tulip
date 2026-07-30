@@ -5,7 +5,7 @@
     enable = true;
 
     interactiveShellInit = ''
-      set fish-greeting
+      set fish_greeting
     '';
   };
 }
