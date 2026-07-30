@@ -60,6 +60,10 @@
     shell = pkgs.fish;
   };
 
+  fonts.fonts = with pkgs; [
+    fira-code
+  ];
+
   programs.fish.enable = true;
   programs.steam.enable = true;
 
