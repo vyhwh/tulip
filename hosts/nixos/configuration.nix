@@ -56,6 +56,8 @@
     isNormalUser = true;
     description = "yukov";
     extraGroups = [ "networkmanager" "wheel" ];
+
+    shell = pkgs.fish;
   };
 
   programs.fish.enable = true;
