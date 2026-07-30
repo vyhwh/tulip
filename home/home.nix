@@ -7,6 +7,8 @@
     ./modules/gtk.nix
     ./modules/gnome.nix
     ./modules/git.nix
+    ./modules/fish.nix
+    ./modules/starship.nix
   ];
 
   home.username = "yukov";
