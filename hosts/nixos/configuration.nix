@@ -56,10 +56,9 @@
     isNormalUser = true;
     description = "yukov";
     extraGroups = [ "networkmanager" "wheel" ];
-    
-    shell = pkgs.fish;
   };
 
+  programs.fish.enable = true;
   programs.steam.enable = true;
 
   nixpkgs.config.allowUnfree = true;
