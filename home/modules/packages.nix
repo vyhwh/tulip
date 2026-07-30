@@ -13,5 +13,6 @@
     rustc
     rustfmt
     clippy
+    rust-analyzer
   ];
 }
