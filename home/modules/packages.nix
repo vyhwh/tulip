@@ -9,6 +9,8 @@
     go
     gopls
 
+    gcc
+
     cargo
     rustc
     rustfmt
