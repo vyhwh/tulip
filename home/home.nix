@@ -4,7 +4,8 @@
   imports = [
     ./modules/vim.nix
     ./modules/packages.nix
-    ./modules/gtk.nix
+    ./modules/themes.nix
+    ./modules/cursor.nix
     ./modules/gnome.nix
     ./modules/git.nix
     ./modules/fish.nix
