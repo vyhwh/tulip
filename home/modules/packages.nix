@@ -5,6 +5,7 @@
     brave
     discord
     zed-editor
+    obsidian
 
     go
     gopls
