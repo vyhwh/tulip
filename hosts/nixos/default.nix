@@ -10,6 +10,8 @@
     ./modules/networking.nix
 
     ./modules/desktop/gnome.nix
+    ./modules/desktop/niri.nix
+    
     ./modules/services/audio.nix
     ./modules/services/printing.nix
 
