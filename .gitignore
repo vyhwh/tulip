@@ -1,0 +1,6 @@
+# Saídas de builds do Nix
+/result
+/result-*
+
+# Ambiente de desenvolvimento local
+/.direnv/
