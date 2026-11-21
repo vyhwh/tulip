@@ -1,0 +1,33 @@
+
+// ─────────────────────────────
+// Startup
+// ─────────────────────────────
+
+spawn-at-startup "noctalia"
+
+// ─────────────────────────────
+// Noctalia
+// ─────────────────────────────
+
+binds {
+    // Terminal
+    Mod+Return { spawn "ghostty"; }
+
+    // Window management
+    Mod+Q repeat=false { close-window; }
+    Mod+Shift+E { quit; }
+
+    // Navigation
+    Mod+H { focus-column-left; }
+    Mod+J { focus-window-down; }
+    Mod+K { focus-window-up; }
+    Mod+L { focus-column-right; }
+
+    // Noctalia
+    Mod+Space { spawn-sh "noctalia msg panel-toggle launcher"; }
+    Mod+S { spawn-sh "noctalia msg panel-toggle control-center"; }
+    Mod+Comma { spawn-sh "noctalia msg settings-toggle"; }
+
+    // Help
+    Mod+Shift+Slash { show-hotkey-overlay; }
+}
