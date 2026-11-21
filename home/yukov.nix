@@ -5,6 +5,7 @@
     ./modules/appearance/cursor.nix
     ./modules/appearance/gnome.nix
     ./modules/appearance/gtk.nix
+    ./modules/appearance/noctalia.nix
 
     ./modules/cli/fish.nix
     ./modules/cli/git.nix
