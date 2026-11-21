@@ -31,3 +31,10 @@ binds {
     // Help
     Mod+Shift+Slash { show-hotkey-overlay; }
 }
+
+input {
+    touchpad {
+        tap
+        natural-scroll
+    }
+}
