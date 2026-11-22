@@ -9,6 +9,9 @@
     zed-discord-presence
     obsidian
 
+    # Hyprland
+    hyprpaper
+
     # Desenvolvimento Go
     go
     gopls
