@@ -11,6 +11,7 @@
 
     # Hyprland
     hyprpaper
+    brightnessctl
 
     # Desenvolvimento Go
     go
