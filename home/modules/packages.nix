@@ -12,6 +12,7 @@
     # Hyprland
     hyprpaper
     brightnessctl
+    playerctl
 
     # Desenvolvimento Go
     go
