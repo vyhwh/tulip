@@ -5,10 +5,12 @@
       url = "github:nix-community/home-manager/release-26.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    amane.url = "github:MystiaFin/amane";
   };
 
   outputs =
-    {
+    inputs@{
       self,
       nixpkgs,
       home-manager,
@@ -25,6 +27,9 @@
             home-manager.useUserPackages = true;
             home-manager.backupFileExtension = "backup";
             home-manager.users.yukov = import ./home/yukov.nix;
+            home-manager.extraSpecialArgs = {
+              inherit inputs;
+            };
           }
         ];
       };

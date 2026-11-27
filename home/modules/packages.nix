@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ inputs, pkgs, ... }:
 
 {
   home.packages = with pkgs; [
@@ -13,6 +13,9 @@
     hyprpaper
     brightnessctl
     playerctl
+
+    # Shell
+    inputs.amane.packages.${pkgs.system}.default
 
     # Desenvolvimento Go
     go
