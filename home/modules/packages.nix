@@ -15,7 +15,7 @@
     playerctl
 
     # Shell
-    inputs.amane.packages.${pkgs.system}.default
+    inputs.amane.packages.${stdenv.hostPlatform.system}.default
 
     # Desenvolvimento Go
     go
