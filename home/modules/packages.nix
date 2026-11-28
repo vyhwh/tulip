@@ -11,6 +11,7 @@
 
     # Hyprland
     hyprpaper
+    hyprshot
     brightnessctl
     playerctl
 
